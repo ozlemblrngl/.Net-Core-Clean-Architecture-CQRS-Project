@@ -1,1 +1,0 @@
-seeds.Add(new OperationClaim { Id = ++id, Name = "{{ feature_name }}.{{ command_name }}" });

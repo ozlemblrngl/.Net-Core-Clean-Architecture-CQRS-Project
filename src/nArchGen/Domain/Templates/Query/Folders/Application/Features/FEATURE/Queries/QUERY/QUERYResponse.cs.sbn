@@ -1,5 +1,0 @@
-using Core.Application.Responses;
-
-namespace Application.Features.{{ feature_name }}.Queries.{{ query_name | string.pascalcase }};
-
-public class {{ query_name | string.pascalcase }}Response : IResponse { }

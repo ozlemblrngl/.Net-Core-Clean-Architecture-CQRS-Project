@@ -1,1 +1,0 @@
-public const string {{ command_name }} = "{{ feature_name | string.pascalcase }}.{{ command_name | string.pascalcase }}";

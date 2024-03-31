@@ -1,1 +1,0 @@
-using Application.Features.{{ feature_name }}.Commands.{{ command_name }};
