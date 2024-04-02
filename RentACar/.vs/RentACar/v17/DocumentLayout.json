@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\RentACar\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E55BF592-C656-4C45-9926-345B022CD266}|Application\\Application.csproj|c:\\users\\ozlem\\source\\repos\\.net-core-clean-architecture-cqrs-project\\rentacar\\application\\services\\repositories\\ibrandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E55BF592-C656-4C45-9926-345B022CD266}|Application\\Application.csproj|solutionrelative:application\\services\\repositories\\ibrandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E55BF592-C656-4C45-9926-345B022CD266}|Application\\Application.csproj|c:\\users\\ozlem\\source\\repos\\.net-core-clean-architecture-cqrs-project\\rentacar\\application\\features\\brands\\commands\\create\\createbrandcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E55BF592-C656-4C45-9926-345B022CD266}|Application\\Application.csproj|solutionrelative:application\\features\\brands\\commands\\create\\createbrandcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -42,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,7 +90,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "IBrandRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\RentACar\\Application\\Services\\Repositories\\IBrandRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Repositories\\IBrandRepository.cs",
+              "ToolTip": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\RentACar\\Application\\Services\\Repositories\\IBrandRepository.cs",
+              "RelativeToolTip": "Application\\Services\\Repositories\\IBrandRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T14:53:34.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ApplicationServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\RentACar\\Application\\ApplicationServiceRegistration.cs",
               "RelativeDocumentMoniker": "Application\\ApplicationServiceRegistration.cs",
@@ -94,12 +111,11 @@
               "RelativeToolTip": "Application\\ApplicationServiceRegistration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T14:28:40.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T14:28:40.663Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "BaseController.cs",
               "DocumentMoniker": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\RentACar\\WebApi\\Controllers\\BaseController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\BaseController.cs",
@@ -107,25 +123,23 @@
               "RelativeToolTip": "WebApi\\Controllers\\BaseController.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T13:38:45.169Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T13:38:45.169Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Application",
+              "DocumentIndex": 7,
+              "Title": "Application.csproj",
               "DocumentMoniker": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\RentACar\\Application\\Application.csproj",
               "RelativeDocumentMoniker": "Application\\Application.csproj",
               "ToolTip": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\RentACar\\Application\\Application.csproj",
               "RelativeToolTip": "Application\\Application.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-02T13:35:14.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T13:35:14.629Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BrandsController.cs",
               "DocumentMoniker": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\RentACar\\WebApi\\Controllers\\BrandsController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\BrandsController.cs",
@@ -133,12 +147,11 @@
               "RelativeToolTip": "WebApi\\Controllers\\BrandsController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T13:32:04.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T13:32:04.427Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CreatedBrandResponse.cs",
               "DocumentMoniker": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\RentACar\\Application\\Features\\Brands\\Commands\\Create\\CreatedBrandResponse.cs",
               "RelativeDocumentMoniker": "Application\\Features\\Brands\\Commands\\Create\\CreatedBrandResponse.cs",
@@ -146,25 +159,24 @@
               "RelativeToolTip": "Application\\Features\\Brands\\Commands\\Create\\CreatedBrandResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T13:19:29.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T13:19:29.458Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CreateBrandCommand.cs",
               "DocumentMoniker": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\RentACar\\Application\\Features\\Brands\\Commands\\Create\\CreateBrandCommand.cs",
               "RelativeDocumentMoniker": "Application\\Features\\Brands\\Commands\\Create\\CreateBrandCommand.cs",
               "ToolTip": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\RentACar\\Application\\Features\\Brands\\Commands\\Create\\CreateBrandCommand.cs",
               "RelativeToolTip": "Application\\Features\\Brands\\Commands\\Create\\CreateBrandCommand.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAABgAAAAQAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAqwBgAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T12:53:03.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Brand.cs",
               "DocumentMoniker": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\RentACar\\Domain\\Entities\\Brand.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Brand.cs",
@@ -172,12 +184,11 @@
               "RelativeToolTip": "Domain\\Entities\\Brand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T12:01:09.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T12:01:09.103Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\RentACar\\WebApi\\Program.cs",
               "RelativeDocumentMoniker": "WebApi\\Program.cs",
@@ -185,8 +196,7 @@
               "RelativeToolTip": "WebApi\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T11:58:24.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T11:58:24.758Z"
             }
           ]
         }

@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\corePackages\\Core.Packages\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9D750704-9A52-48AA-B9F0-51E77B6D3F6A}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\ozlem\\source\\repos\\.net-core-clean-architecture-cqrs-project\\corepackages\\core.packages\\core.persistence\\repositories\\iquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D750704-9A52-48AA-B9F0-51E77B6D3F6A}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\repositories\\iquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D750704-9A52-48AA-B9F0-51E77B6D3F6A}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\ozlem\\source\\repos\\.net-core-clean-architecture-cqrs-project\\corepackages\\core.packages\\core.persistence\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D750704-9A52-48AA-B9F0-51E77B6D3F6A}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D750704-9A52-48AA-B9F0-51E77B6D3F6A}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\ozlem\\source\\repos\\.net-core-clean-architecture-cqrs-project\\corepackages\\core.packages\\core.persistence\\repositories\\iasyncrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D750704-9A52-48AA-B9F0-51E77B6D3F6A}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\repositories\\iasyncrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9D750704-9A52-48AA-B9F0-51E77B6D3F6A}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\ozlem\\source\\repos\\.net-core-clean-architecture-cqrs-project\\corepackages\\core.packages\\core.persistence\\repositories\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D750704-9A52-48AA-B9F0-51E77B6D3F6A}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\repositories\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -59,6 +71,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\IQuery.cs",
+              "RelativeDocumentMoniker": "Core.Persistence\\Repositories\\IQuery.cs",
+              "ToolTip": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\IQuery.cs",
+              "RelativeToolTip": "Core.Persistence\\Repositories\\IQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T18:17:45.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "Core.Persistence\\Repositories\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "Core.Persistence\\Repositories\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T18:11:16.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IAsyncRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\IAsyncRepository.cs",
+              "RelativeDocumentMoniker": "Core.Persistence\\Repositories\\IAsyncRepository.cs",
+              "ToolTip": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\IAsyncRepository.cs",
+              "RelativeToolTip": "Core.Persistence\\Repositories\\IAsyncRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T14:55:48.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Entity.cs",
               "DocumentMoniker": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\Entity.cs",
               "RelativeDocumentMoniker": "Core.Persistence\\Repositories\\Entity.cs",
