@@ -1,0 +1,12 @@
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\corePackages\Core.Packages\Core.Persistence\bin\Debug\net8.0\Core.Persistence.deps.json
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\corePackages\Core.Packages\Core.Persistence\bin\Debug\net8.0\Core.Persistence.dll
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\corePackages\Core.Packages\Core.Persistence\bin\Debug\net8.0\Core.Persistence.pdb
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\corePackages\Core.Packages\Core.Persistence\obj\Debug\net8.0\Core.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\corePackages\Core.Packages\Core.Persistence\obj\Debug\net8.0\Core.Persistence.AssemblyInfoInputs.cache
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\corePackages\Core.Packages\Core.Persistence\obj\Debug\net8.0\Core.Persistence.AssemblyInfo.cs
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\corePackages\Core.Packages\Core.Persistence\obj\Debug\net8.0\Core.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\corePackages\Core.Packages\Core.Persistence\obj\Debug\net8.0\Core.Persistence.sourcelink.json
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\corePackages\Core.Packages\Core.Persistence\obj\Debug\net8.0\Core.Persistence.dll
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\corePackages\Core.Packages\Core.Persistence\obj\Debug\net8.0\refint\Core.Persistence.dll
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\corePackages\Core.Packages\Core.Persistence\obj\Debug\net8.0\Core.Persistence.pdb
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\corePackages\Core.Packages\Core.Persistence\obj\Debug\net8.0\ref\Core.Persistence.dll
