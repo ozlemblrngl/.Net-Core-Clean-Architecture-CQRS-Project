@@ -1,0 +1,13 @@
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\RentACar\Application\bin\Debug\net8.0\Application.deps.json
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\RentACar\Application\bin\Debug\net8.0\Application.dll
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\RentACar\Application\bin\Debug\net8.0\Application.pdb
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\RentACar\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\RentACar\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\RentACar\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\RentACar\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\RentACar\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\RentACar\Application\obj\Debug\net8.0\Application.sourcelink.json
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\RentACar\Application\obj\Debug\net8.0\Application.dll
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\RentACar\Application\obj\Debug\net8.0\refint\Application.dll
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\RentACar\Application\obj\Debug\net8.0\Application.pdb
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\RentACar\Application\obj\Debug\net8.0\ref\Application.dll

@@ -31,3 +31,7 @@ C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\RentACar\W
 C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\RentACar\WebApi\obj\Debug\net8.0\WebApi.pdb
 C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\RentACar\WebApi\obj\Debug\net8.0\WebApi.genruntimeconfig.cache
 C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\RentACar\WebApi\obj\Debug\net8.0\ref\WebApi.dll
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\RentACar\WebApi\bin\Debug\net8.0\MediatR.dll
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\RentACar\WebApi\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\RentACar\WebApi\bin\Debug\net8.0\Application.dll
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\RentACar\WebApi\bin\Debug\net8.0\Application.pdb
