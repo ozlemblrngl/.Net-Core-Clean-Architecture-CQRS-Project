@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Query;
+﻿using Core.Persistence.Paging;
+using Microsoft.EntityFrameworkCore.Query;
 using System.Linq.Expressions;
 
 namespace Core.Persistence.Repositories
@@ -13,7 +14,7 @@ namespace Core.Persistence.Repositories
             bool enableTracking = true
         );
 
-        IPaginate<TEntity> GetList(
+        Paginate<TEntity> GetList(
             Expression<Func<TEntity, bool>>? predicate = null,
             Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy = null,
             Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null,
@@ -23,7 +24,7 @@ namespace Core.Persistence.Repositories
             bool enableTracking = true
         );
 
-        IPaginate<TEntity> GetListByDynamic(
+        Paginate<TEntity> GetListByDynamic(
             DynamicQuery dynamic,
             Expression<Func<TEntity, bool>>? predicate = null,
             Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null,
