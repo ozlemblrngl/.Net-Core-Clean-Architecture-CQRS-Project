@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{9D750704-9A52-48AA-B9F0-51E77B6D3F6A}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\repositories\\iasyncrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D750704-9A52-48AA-B9F0-51E77B6D3F6A}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\ozlem\\source\\repos\\.net-core-clean-architecture-cqrs-project\\corepackages\\core.packages\\core.persistence\\paging\\iqueryablepaginateextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D750704-9A52-48AA-B9F0-51E77B6D3F6A}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\paging\\iqueryablepaginateextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9D750704-9A52-48AA-B9F0-51E77B6D3F6A}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\ozlem\\source\\repos\\.net-core-clean-architecture-cqrs-project\\corepackages\\core.packages\\core.persistence\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D750704-9A52-48AA-B9F0-51E77B6D3F6A}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D750704-9A52-48AA-B9F0-51E77B6D3F6A}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\ozlem\\source\\repos\\.net-core-clean-architecture-cqrs-project\\corepackages\\core.packages\\core.persistence\\dynamic\\dynamicquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D750704-9A52-48AA-B9F0-51E77B6D3F6A}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\dynamic\\dynamicquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D750704-9A52-48AA-B9F0-51E77B6D3F6A}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\ozlem\\source\\repos\\.net-core-clean-architecture-cqrs-project\\corepackages\\core.packages\\core.persistence\\dynamic\\sort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D750704-9A52-48AA-B9F0-51E77B6D3F6A}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\dynamic\\sort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D750704-9A52-48AA-B9F0-51E77B6D3F6A}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\ozlem\\source\\repos\\.net-core-clean-architecture-cqrs-project\\corepackages\\core.packages\\core.persistence\\dynamic\\filter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D750704-9A52-48AA-B9F0-51E77B6D3F6A}|Core.Persistence\\Core.Persistence.csproj|solutionrelative:core.persistence\\dynamic\\filter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D750704-9A52-48AA-B9F0-51E77B6D3F6A}|Core.Persistence\\Core.Persistence.csproj|c:\\users\\ozlem\\source\\repos\\.net-core-clean-architecture-cqrs-project\\corepackages\\core.packages\\core.persistence\\paging\\paginate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,20 +86,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IQueryablePaginateExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\corePackages\\Core.Packages\\Core.Persistence\\Paging\\IQueryablePaginateExtensions.cs",
-              "RelativeDocumentMoniker": "Core.Persistence\\Paging\\IQueryablePaginateExtensions.cs",
-              "ToolTip": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\corePackages\\Core.Packages\\Core.Persistence\\Paging\\IQueryablePaginateExtensions.cs",
-              "RelativeToolTip": "Core.Persistence\\Paging\\IQueryablePaginateExtensions.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAD4vzEAAAAJAAAA",
+              "DocumentIndex": 2,
+              "Title": "DynamicQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\corePackages\\Core.Packages\\Core.Persistence\\Dynamic\\DynamicQuery.cs",
+              "RelativeDocumentMoniker": "Core.Persistence\\Dynamic\\DynamicQuery.cs",
+              "ToolTip": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\corePackages\\Core.Packages\\Core.Persistence\\Dynamic\\DynamicQuery.cs",
+              "RelativeToolTip": "Core.Persistence\\Dynamic\\DynamicQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T19:29:03.908Z",
+              "WhenOpened": "2024-04-03T11:07:04.848Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Sort.cs",
+              "DocumentMoniker": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\corePackages\\Core.Packages\\Core.Persistence\\Dynamic\\Sort.cs",
+              "RelativeDocumentMoniker": "Core.Persistence\\Dynamic\\Sort.cs",
+              "ToolTip": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\corePackages\\Core.Packages\\Core.Persistence\\Dynamic\\Sort.cs",
+              "RelativeToolTip": "Core.Persistence\\Dynamic\\Sort.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T11:02:26.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Filter.cs",
+              "DocumentMoniker": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\corePackages\\Core.Packages\\Core.Persistence\\Dynamic\\Filter.cs",
+              "RelativeDocumentMoniker": "Core.Persistence\\Dynamic\\Filter.cs",
+              "ToolTip": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\corePackages\\Core.Packages\\Core.Persistence\\Dynamic\\Filter.cs",
+              "RelativeToolTip": "Core.Persistence\\Dynamic\\Filter.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwA4AAADRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T10:47:40.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Paginate.cs",
               "DocumentMoniker": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\corePackages\\Core.Packages\\Core.Persistence\\Paging\\Paginate.cs",
               "RelativeDocumentMoniker": "Core.Persistence\\Paging\\Paginate.cs",
@@ -104,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "IQuery.cs",
               "DocumentMoniker": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\IQuery.cs",
               "RelativeDocumentMoniker": "Core.Persistence\\Repositories\\IQuery.cs",
@@ -112,17 +146,18 @@
               "RelativeToolTip": "Core.Persistence\\Repositories\\IQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T18:17:45.523Z"
+              "WhenOpened": "2024-04-02T18:17:45.523Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\IRepository.cs",
               "RelativeDocumentMoniker": "Core.Persistence\\Repositories\\IRepository.cs",
               "ToolTip": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\IRepository.cs",
               "RelativeToolTip": "Core.Persistence\\Repositories\\IRepository.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAowBoAAAAIAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAowBsAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T18:11:16.739Z",
               "EditorCaption": ""
@@ -135,14 +170,14 @@
               "RelativeDocumentMoniker": "Core.Persistence\\Repositories\\IAsyncRepository.cs",
               "ToolTip": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\IAsyncRepository.cs",
               "RelativeToolTip": "Core.Persistence\\Repositories\\IAsyncRepository.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBkAAAAZAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAowBkAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T14:55:48.447Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Entity.cs",
               "DocumentMoniker": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\Entity.cs",
               "RelativeDocumentMoniker": "Core.Persistence\\Repositories\\Entity.cs",
@@ -150,7 +185,8 @@
               "RelativeToolTip": "Core.Persistence\\Repositories\\Entity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T12:07:08.25Z"
+              "WhenOpened": "2024-04-02T12:07:08.25Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DUiZsWQuZRG+KR7zG0u1MYCp3vX2ViZBVW5Ohl0JD3t9dJGd0PnFKMibrlTGcCiIvpLhEek5XNtNeUNlZbRJ3Q==",
+  "dgSpecHash": "YSWf7AD8CrtVrhk6L9cbMX3HZtiiF7zHu6OMOvbKnUbyEnaOgqZnVWGuIn6tcWB7Wwk1gdVVi5V0nJevdevxAg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\corePackages\\Core.Packages\\Core.Persistence\\Core.Persistence.csproj",
   "expectedPackageFiles": [
@@ -72,6 +72,7 @@
     "C:\\Users\\Ozlem\\.nuget\\packages\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
     "C:\\Users\\Ozlem\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Ozlem\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
+    "C:\\Users\\Ozlem\\.nuget\\packages\\system.linq.dynamic.core\\1.3.10\\system.linq.dynamic.core.1.3.10.nupkg.sha512",
     "C:\\Users\\Ozlem\\.nuget\\packages\\system.linq.expressions\\4.3.0\\system.linq.expressions.4.3.0.nupkg.sha512",
     "C:\\Users\\Ozlem\\.nuget\\packages\\system.net.http\\4.3.0\\system.net.http.4.3.0.nupkg.sha512",
     "C:\\Users\\Ozlem\\.nuget\\packages\\system.net.nameresolution\\4.3.0\\system.net.nameresolution.4.3.0.nupkg.sha512",
