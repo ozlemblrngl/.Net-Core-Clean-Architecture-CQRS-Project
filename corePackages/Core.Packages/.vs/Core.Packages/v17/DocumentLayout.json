@@ -86,8 +86,7 @@
               "RelativeToolTip": "Core.Persistence\\Repositories\\IRepository.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAACoAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T18:16:35.673Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-03T18:16:35.673Z"
             },
             {
               "$type": "Document",
@@ -99,8 +98,7 @@
               "RelativeToolTip": "Core.Persistence\\Repositories\\IAsyncRepository.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T18:15:42.51Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-03T18:15:42.51Z"
             },
             {
               "$type": "Document",
@@ -112,8 +110,7 @@
               "RelativeToolTip": "Core.Persistence\\Repositories\\IQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T18:09:13.976Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-03T18:09:13.976Z"
             },
             {
               "$type": "Document",
@@ -123,7 +120,7 @@
               "RelativeDocumentMoniker": "Core.Persistence\\Repositories\\EfRepositoryBase.cs",
               "ToolTip": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\corePackages\\Core.Packages\\Core.Persistence\\Repositories\\EfRepositoryBase.cs",
               "RelativeToolTip": "Core.Persistence\\Repositories\\EfRepositoryBase.cs",
-              "ViewState": "AQIAAOUAAAAAAAAAAAArwOkAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAD4vxkAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-03T18:02:53.432Z",
               "EditorCaption": ""
@@ -138,8 +135,7 @@
               "RelativeToolTip": "Core.Persistence\\Repositories\\IEntityTimestamps.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T12:03:19.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-03T12:03:19.744Z"
             },
             {
               "$type": "Document",
@@ -151,8 +147,7 @@
               "RelativeToolTip": "Core.Persistence\\Repositories\\Entity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T12:07:08.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T12:07:08.25Z"
             }
           ]
         }

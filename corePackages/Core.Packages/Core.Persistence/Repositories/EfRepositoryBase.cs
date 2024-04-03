@@ -3,6 +3,7 @@ using Core.Persistence.Paging;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Query;
+using System.Collections;
 using System.Linq.Expressions;
 using System.Reflection;
 
@@ -22,7 +23,7 @@ namespace Core.Persistence.Repositories
 
         public TEntity Add(TEntity entity)
         {
-
+            throw new NotImplementedException();
         }
 
         public async Task<TEntity> AddAsync(TEntity entity)
