@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 
 namespace Core.Persistence.Repositories
 {
-    public interface IRepository<TEntity, TEntityId> : IQueryable<TEntity>
+    public interface IRepository<TEntity, TEntityId> : IQuery<TEntity>
     where TEntity : Entity<TEntityId>
     {
         TEntity? Get(
@@ -43,6 +43,6 @@ namespace Core.Persistence.Repositories
         TEntity Update(TEntity entity);
         ICollection<TEntity> UpdateRange(ICollection<TEntity> entities);
         TEntity Delete(TEntity entity, bool permanent = false);
-        ICollection<TEntity> DeleteRange(ICollection<TEntity> entity, bool permanent = false);
+        ICollection<TEntity> DeleteRange(ICollection<TEntity> entities, bool permanent = false);
     }
 }
