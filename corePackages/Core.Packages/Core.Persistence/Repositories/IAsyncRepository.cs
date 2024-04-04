@@ -10,7 +10,7 @@ namespace Core.Persistence.Repositories
         //Entityden inherit edilmesi ve geliştirinin kafasına göre buraya domain nesnesi dışında başka bir şey yazmaması için sınırlandırıyoruz
     {
         Task<TEntity?> GetAsync(Expression<Func<TEntity, bool>> predicate,
-            Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? inlude = null,
+            Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null,
             bool withDeleted = false,
             bool enableTracking = true,
             CancellationToken cancellationToken = default);

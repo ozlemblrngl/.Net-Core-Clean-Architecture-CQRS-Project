@@ -9,6 +9,7 @@ using System.Reflection;
 
 namespace Core.Persistence.Repositories
 {
+    //Asenkron varken çok fazla senkron kullanmayız ama ihtiyaca göre tabiki değişebilir.
     public class EfRepositoryBase<TEntity, TEntityId, TContext>
         : IAsyncRepository<TEntity, TEntityId>, IRepository<TEntity, TEntityId>
         where TEntity : Entity<TEntityId>
@@ -104,9 +105,16 @@ namespace Core.Persistence.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<TEntity?> GetAsync(Expression<Func<TEntity, bool>> predicate, Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? inlude = null, bool withDeleted = false, bool enableTracking = true, CancellationToken cancellationToken = default)
+        public async Task<TEntity?> GetAsync(Expression<Func<TEntity, bool>> predicate, Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null, bool withDeleted = false, bool enableTracking = true, CancellationToken cancellationToken = default)
         {
-            throw new NotImplementedException();
+            IQueryable<TEntity> queryable = Query();
+            if (!enableTracking)
+                queryable = queryable.AsNoTracking();
+            if (include != null)
+                queryable = include(queryable);
+            if (withDeleted)
+                queryable = queryable.IgnoreQueryFilters();
+            return await queryable.FirstOrDefaultAsync(predicate, cancellationToken);
         }
 
         public Paginate<TEntity> GetList(Expression<Func<TEntity, bool>>? predicate = null, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy = null, Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null, int index = 0, int size = 10, bool withDeleted = false, bool enableTracking = true)
@@ -135,15 +143,21 @@ namespace Core.Persistence.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<Paginate<TEntity>> GetListByDynamicAsync(DynamicQuery dynamic, Expression<Func<TEntity, bool>>? predicate = null, Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null, int index = 0, int size = 10, bool withDeleted = false, bool enableTracking = true, CancellationToken cancellationToken = default)
+        public async Task<Paginate<TEntity>> GetListByDynamicAsync(DynamicQuery dynamic, Expression<Func<TEntity, bool>>? predicate = null, Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null, int index = 0, int size = 10, bool withDeleted = false, bool enableTracking = true, CancellationToken cancellationToken = default)
         {
-            throw new NotImplementedException();
+            IQueryable<TEntity> queryable = Query().ToDynamic(dynamic); // query i dynamic e çevir.
+            if (!enableTracking)
+                queryable = queryable.AsNoTracking();
+            if (include != null)
+                queryable = include(queryable);
+            if (withDeleted)
+                queryable = queryable.IgnoreQueryFilters();
+            if (predicate != null)
+                queryable = queryable.Where(predicate);
+            return await queryable.ToPaginateAsync(index, size, cancellationToken);
         }
 
-        public IQueryable<TEntity> Query()
-        {
-            throw new NotImplementedException();
-        }
+        public IQueryable<TEntity> Query() => Context.Set<TEntity>(); // query aslında ef'de ilgili domain nesnesine attach olmamız yani onu Context.set etmemizdir.
 
         public TEntity Update(TEntity entity)
         {
