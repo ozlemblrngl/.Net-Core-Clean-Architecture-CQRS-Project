@@ -92,9 +92,11 @@ namespace Core.Persistence.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<ICollection<TEntity>> DeleteRangeAsync(ICollection<TEntity> entities, bool permanent = false)
+        public async Task<ICollection<TEntity>> DeleteRangeAsync(ICollection<TEntity> entities, bool permanent = false)
         {
-            throw new NotImplementedException();
+            await SetEntityAsDeletedAsync(entities, permanent);
+            await Context.SaveChangesAsync();
+            return entities;
         }
 
         public TEntity? Get(Expression<Func<TEntity, bool>> predicate, Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null, bool withDeleted = false, bool enableTracking = true)
@@ -112,9 +114,20 @@ namespace Core.Persistence.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<Paginate<TEntity>> GetListAsync(Expression<Func<TEntity, bool>>? predicate = null, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy = null, Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null, int index = 0, int size = 10, bool withDeleted = false, bool enableTracking = true, CancellationToken cancellationToken = default)
+        public async Task<Paginate<TEntity>> GetListAsync(Expression<Func<TEntity, bool>>? predicate = null, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy = null, Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null, int index = 0, int size = 10, bool withDeleted = false, bool enableTracking = true, CancellationToken cancellationToken = default)
         {
-            throw new NotImplementedException();
+            IQueryable<TEntity> queryable = Query();
+            if (!enableTracking)
+                queryable = queryable.AsNoTracking();
+            if (include != null)
+                queryable = include(queryable);
+            if (withDeleted)
+                queryable = queryable.IgnoreQueryFilters();
+            if (predicate != null)
+                queryable = queryable.Where(predicate);
+            if (orderBy != null)
+                return await orderBy(queryable).ToPaginateAsync(index, size, cancellationToken);
+            return await queryable.ToPaginateAsync(index, size, cancellationToken);
         }
 
         public Paginate<TEntity> GetListByDynamic(DynamicQuery dynamic, Expression<Func<TEntity, bool>>? predicate = null, Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null, int index = 0, int size = 10, bool withDeleted = false, bool enableTracking = true)
@@ -137,9 +150,12 @@ namespace Core.Persistence.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<TEntity> UpdateAsync(TEntity entity)
+        public async Task<TEntity> UpdateAsync(TEntity entity)
         {
-            throw new NotImplementedException();
+            entity.UpdatedDate = DateTime.UtcNow;
+            Context.Update(entity);
+            await Context.SaveChangesAsync();
+            return entity;
         }
 
         public ICollection<TEntity> UpdateRange(ICollection<TEntity> entities)
@@ -147,9 +163,14 @@ namespace Core.Persistence.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<ICollection<TEntity>> UpdateRangeAsync(ICollection<TEntity> entity)
+        public async Task<ICollection<TEntity>> UpdateRangeAsync(ICollection<TEntity> entities)
         {
-            throw new NotImplementedException();
+            foreach (TEntity entity in entities)
+                entity.UpdatedDate = DateTime.UtcNow;
+            Context.UpdateRange(entities);
+            await Context.SaveChangesAsync();
+            return entities;
+
         }
 
         protected async Task SetEntityAsDeletedAsync(TEntity entity, bool permanent) // yardımcı metot olduğu için sona attık.
