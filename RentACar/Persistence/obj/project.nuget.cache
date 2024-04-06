@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "5f3JrHonuJSPuQXWz95Ht0ebW2EVOyJJ/uiWoV9qKcOh0nFHLmiXe+aMwUYGmAkc4hNsPsB88/G7ZuAbfMJjhg==",
+  "dgSpecHash": "CF94qB/2JejrJGkt5mMVilOvazhxZFB94xjDTfL3T7kA/1x3EoWDy1KnQ0HCFvsHmi2cEZHxEPr6VIWIBlcjCw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\RentACar\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Ozlem\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Ozlem\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Ozlem\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\Ozlem\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",

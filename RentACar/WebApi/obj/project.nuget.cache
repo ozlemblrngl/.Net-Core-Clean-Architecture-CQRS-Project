@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/bnLyJbUyau4ySlY+B72xrsj8bd4mpUMzXQVU4CnzgJbm4v1okOiwz8LVF19BAk55nHYV0ufQW8mMjHK6K5/iw==",
+  "dgSpecHash": "kNTygQ8u+eGYQFfYNVyUr7T1WTAQClnVddhocCVWosHCOu4ELK2GU9n5FStEwdxht1abLXSzJQ7FKqvQ20LCkw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\RentACar\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Ozlem\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Ozlem\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Ozlem\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\Ozlem\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
