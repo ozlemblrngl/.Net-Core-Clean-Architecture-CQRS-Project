@@ -13,6 +13,7 @@ namespace Application.Features.Brands.Profiles
         {
             CreateMap<Brand, CreateBrandCommand>().ReverseMap();
             CreateMap<Brand, CreatedBrandResponse>().ReverseMap();
+            CreateMap<Brand, GetListBrandListItemDto>().ReverseMap();
             CreateMap<Paginate<Brand>, GetListResponse<GetListBrandListItemDto>>().ReverseMap();
 
         }

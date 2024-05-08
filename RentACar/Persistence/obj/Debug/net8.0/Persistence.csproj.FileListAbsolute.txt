@@ -18,3 +18,5 @@ C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\RentACar\P
 C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\RentACar\Persistence\obj\Debug\net8.0\refint\Persistence.dll
 C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\RentACar\Persistence\obj\Debug\net8.0\Persistence.pdb
 C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\RentACar\Persistence\obj\Debug\net8.0\ref\Persistence.dll
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\RentACar\Persistence\bin\Debug\net8.0\Core.Application.dll
+C:\Users\Ozlem\source\repos\.Net-Core-Clean-Architecture-CQRS-Project\RentACar\Persistence\bin\Debug\net8.0\Core.Application.pdb
