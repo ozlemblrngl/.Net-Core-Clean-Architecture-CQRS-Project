@@ -1,4 +1,5 @@
 ﻿using Application.Features.Brands.Commands.Create;
+using Application.Features.Brands.Commands.Update;
 using Application.Features.Brands.Queries.GetById;
 using Application.Features.Brands.Queries.GetList;
 using Core.Application.Requests;
@@ -44,5 +45,16 @@ namespace WebApi.Controllers
             return Ok(response);
 
         }
+
+        [HttpPut]
+
+        public async Task<IActionResult> Update([FromBody] UpdateBrandCommand updateBrandCommand)
+        {
+            UpdatedBrandResponse response = await Mediator.Send(updateBrandCommand);
+            return Ok(response);
+
+        }
+
+
     }
 }
