@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\RentACar\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E55BF592-C656-4C45-9926-345B022CD266}|Application\\Application.csproj|c:\\users\\ozlem\\source\\repos\\.net-core-clean-architecture-cqrs-project\\rentacar\\application\\features\\brands\\commands\\update\\updatedbrandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E55BF592-C656-4C45-9926-345B022CD266}|Application\\Application.csproj|solutionrelative:application\\features\\brands\\commands\\update\\updatedbrandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E55BF592-C656-4C45-9926-345B022CD266}|Application\\Application.csproj|c:\\users\\ozlem\\source\\repos\\.net-core-clean-architecture-cqrs-project\\rentacar\\application\\features\\brands\\commands\\create\\createdbrandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E55BF592-C656-4C45-9926-345B022CD266}|Application\\Application.csproj|solutionrelative:application\\features\\brands\\commands\\create\\createdbrandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E55BF592-C656-4C45-9926-345B022CD266}|Application\\Application.csproj|c:\\users\\ozlem\\source\\repos\\.net-core-clean-architecture-cqrs-project\\rentacar\\application\\features\\brands\\profiles\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E55BF592-C656-4C45-9926-345B022CD266}|Application\\Application.csproj|solutionrelative:application\\features\\brands\\profiles\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,14 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E55BF592-C656-4C45-9926-345B022CD266}|Application\\Application.csproj|c:\\users\\ozlem\\source\\repos\\.net-core-clean-architecture-cqrs-project\\rentacar\\application\\features\\brands\\commands\\create\\createbrandcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E55BF592-C656-4C45-9926-345B022CD266}|Application\\Application.csproj|solutionrelative:application\\features\\brands\\commands\\create\\createbrandcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E55BF592-C656-4C45-9926-345B022CD266}|Application\\Application.csproj|c:\\users\\ozlem\\source\\repos\\.net-core-clean-architecture-cqrs-project\\rentacar\\application\\features\\brands\\commands\\update\\updatedbrandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E55BF592-C656-4C45-9926-345B022CD266}|Application\\Application.csproj|solutionrelative:application\\features\\brands\\commands\\update\\updatedbrandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E55BF592-C656-4C45-9926-345B022CD266}|Application\\Application.csproj|c:\\users\\ozlem\\source\\repos\\.net-core-clean-architecture-cqrs-project\\rentacar\\application\\features\\brands\\commands\\create\\createdbrandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E55BF592-C656-4C45-9926-345B022CD266}|Application\\Application.csproj|solutionrelative:application\\features\\brands\\commands\\create\\createdbrandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E55BF592-C656-4C45-9926-345B022CD266}|Application\\Application.csproj|c:\\users\\ozlem\\source\\repos\\.net-core-clean-architecture-cqrs-project\\rentacar\\application\\features\\brands\\queries\\getbyid\\getbyidbrandquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -122,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "UpdateBrandCommand.cs",
               "DocumentMoniker": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\RentACar\\Application\\Features\\Brands\\Commands\\Update\\UpdateBrandCommand.cs",
               "RelativeDocumentMoniker": "Application\\Features\\Brands\\Commands\\Update\\UpdateBrandCommand.cs",
@@ -130,18 +130,17 @@
               "RelativeToolTip": "Application\\Features\\Brands\\Commands\\Update\\UpdateBrandCommand.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAowCIAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T19:07:42.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T19:07:42.409Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "CreatedBrandResponse.cs",
               "DocumentMoniker": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\RentACar\\Application\\Features\\Brands\\Commands\\Create\\CreatedBrandResponse.cs",
               "RelativeDocumentMoniker": "Application\\Features\\Brands\\Commands\\Create\\CreatedBrandResponse.cs",
               "ToolTip": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\RentACar\\Application\\Features\\Brands\\Commands\\Create\\CreatedBrandResponse.cs",
               "RelativeToolTip": "Application\\Features\\Brands\\Commands\\Create\\CreatedBrandResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T18:55:47.615Z",
               "EditorCaption": ""
@@ -156,12 +155,11 @@
               "RelativeToolTip": "Application\\Features\\Brands\\Queries\\GetById\\GetByIdBrandQuery.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAtwCAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T18:09:22.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T18:09:22.556Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "CreateBrandCommand.cs",
               "DocumentMoniker": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\RentACar\\Application\\Features\\Brands\\Commands\\Create\\CreateBrandCommand.cs",
               "RelativeDocumentMoniker": "Application\\Features\\Brands\\Commands\\Create\\CreateBrandCommand.cs",
@@ -169,25 +167,24 @@
               "RelativeToolTip": "Application\\Features\\Brands\\Commands\\Create\\CreateBrandCommand.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAywCEAAAB8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T20:14:27.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T20:14:27.192Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "UpdatedBrandResponse.cs",
               "DocumentMoniker": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\RentACar\\Application\\Features\\Brands\\Commands\\Update\\UpdatedBrandResponse.cs",
               "RelativeDocumentMoniker": "Application\\Features\\Brands\\Commands\\Update\\UpdatedBrandResponse.cs",
               "ToolTip": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\RentACar\\Application\\Features\\Brands\\Commands\\Update\\UpdatedBrandResponse.cs",
               "RelativeToolTip": "Application\\Features\\Brands\\Commands\\Update\\UpdatedBrandResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T18:59:20.289Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "BrandsController.cs",
               "DocumentMoniker": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\RentACar\\WebApi\\Controllers\\BrandsController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\BrandsController.cs",
@@ -195,12 +192,11 @@
               "RelativeToolTip": "WebApi\\Controllers\\BrandsController.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAWwDUAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T21:13:32.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T21:13:32.845Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MappingProfiles.cs",
               "DocumentMoniker": "C:\\Users\\Ozlem\\source\\repos\\.Net-Core-Clean-Architecture-CQRS-Project\\RentACar\\Application\\Features\\Brands\\Profiles\\MappingProfiles.cs",
               "RelativeDocumentMoniker": "Application\\Features\\Brands\\Profiles\\MappingProfiles.cs",
@@ -221,8 +217,7 @@
               "RelativeToolTip": "Application\\Features\\Brands\\Queries\\GetById\\GetByIdBrandResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T18:07:51.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T18:07:51.349Z"
             },
             {
               "$type": "Document",
@@ -234,8 +229,7 @@
               "RelativeToolTip": "Application\\Features\\Brands\\Queries\\GetList\\GetListBrandListItemDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T15:34:11.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T15:34:11.855Z"
             },
             {
               "$type": "Document",
@@ -247,8 +241,7 @@
               "RelativeToolTip": "Application\\Features\\Brands\\Queries\\GetList\\GetListBrandQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T15:35:56.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T15:35:56.258Z"
             },
             {
               "$type": "Document",
